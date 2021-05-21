@@ -16,7 +16,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 .instagram_wrapper{
     display: flex;
     align-items: center;
@@ -31,13 +30,7 @@ body{
     width: 50%;
 }
 .phone_black{
-    height: 50rem;
-    z-index: 1;
-    
-}
-.phone_white{
-    height: 50rem;
-    z-index: 3;
+    height: 50rem;  
 }
 .instagram_logar{
     display: flex;
@@ -54,7 +47,7 @@ body{
     flex-direction: column;
     background-color: #FFF;
     width: 100%;
-    padding: 1.3rem;
+    padding: 1.3rem 0;
     border: 1px solid lightgrey;
 }
 .group:nth-child(1){
@@ -84,7 +77,7 @@ body{
     margin-top: 1rem;
 }
 .not_account{
-    color: rgb (160, 160, 160);
+    color: rgb(160, 160, 160);
 }
 .link_blue{
     color: #0095f6;
@@ -100,16 +93,14 @@ body{
 .download{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
 }
-.get_app{
-    text-align: center;
-}
+
 .app_download{
-    width: 10rem;
     height: 3rem;
+    width: 10rem;
     background-size: cover;
     border-radius: 5px;
 }
